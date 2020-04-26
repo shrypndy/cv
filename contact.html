@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contacts</title>
+  </head>
+  <body>
+    <h1>Contact me</h1>
+    <br>
+    <!--br indicates line break -->
+    <table>
+      <tr>
+        <td>Phone no:</td>
+        <td>7820068638</td>
+        <!--these are divisions within the row -->
+      </tr>
+      <tr>
+        <td>E-mail:</td>
+        <td>thecarnifex13@gmail.com</td>
+      </tr>
+
+    </table>
+<br><br><br><h2>Your details</h2><br><br>
+    <form  action="mailto:namastebois@gmail.com" method="post" enctype="text/plain">
+      <!-- deleted the class and added enctype in order to make the message in the body of your email get rid of unwanted characters -->
+      <label for="">Name</label>
+      <input type="text" name="Name: " value="">
+      <input type="submit" name="" >
+      <!--rem to delete value part for submit button which when clicked on does the task specified in action, here mails to a given email  -->
+      <br><br>
+      <label for="">Email</label>
+      <input type="email" name="Email: " value="">
+      <!--name involves the text that pops along when a user is directed to their mail -->
+      <input type="submit" name="">
+      <br><br>
+
+      <label>Message</label><br><br>
+      <textarea name="Message: " rows="10" cols="80"></textarea><br>
+      <!-- in order to create a text area -->
+      <input type="submit" name=""><br>
+    </form>
+
+  </body>
+</html>
